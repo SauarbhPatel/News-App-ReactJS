@@ -87,14 +87,14 @@ const News =(props)=>{
       </>
     );
 }
-// News.defaultProps = {
-//   country: "in",
-//   pageSize: 6,
-//   category: "General",
-// };
-// News.propTypes = {
-//   country: PropTypes.string, //pts-->PropTypes.string,
-//   pageSize: PropTypes.number, //ptn
-//   category: PropTypes.string,
-// };
+News.defaultProps = {
+  country: "in",
+  pageSize: 6,
+  category: "General",
+};
+News.propTypes = {
+  country: PropTypes.string, //pts-->PropTypes.string,
+  pageSize: PropTypes.number, //ptn
+  category: PropTypes.string,
+};
 export default News;
